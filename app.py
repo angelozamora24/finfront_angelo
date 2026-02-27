@@ -91,7 +91,6 @@ def slow_endpoint():
 
     return result
 
-
 @app.route('/logout')
 def logout():
     session.clear()
